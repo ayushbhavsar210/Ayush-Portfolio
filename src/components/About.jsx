@@ -15,9 +15,7 @@ const About = () => {
           <div className="about-card">
             <h3>Full‑Stack Mindset</h3>
             <p>
-              I have hands-on experience with ASP.NET, Node.js, Express.js, React and Flutter.
-              I understand how frontend and backend systems communicate and I focus on writing
-              clean, modular code that follows best practices.
+              I have a full-stack development mindset with primary experience in the MERN stack and PHP, focusing on building clean, scalable applications. I also have working knowledge of ASP.NET and Flutter, allowing me to adapt quickly across technologies.
             </p>
           </div>
           <div className="about-card">
@@ -31,7 +29,7 @@ const About = () => {
           <div className="about-card">
             <h3>Career Goals</h3>
             <p>
-              I&apos;m looking for an internship or junior role in Web Development (.NET / MERN / MEAN)
+              I&apos;m looking for an internship or junior role in Web Development ( MEAN / MERN / PHP )
               where I can learn from senior developers, contribute to production code, and grow into
               a reliable full‑stack engineer.
             </p>

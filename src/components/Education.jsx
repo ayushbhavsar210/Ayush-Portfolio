@@ -12,7 +12,7 @@ const Education = () => {
               Charotar University of Science and Technology (CHARUSAT), Gujarat ·
               Aug 2024 – Oct 2026 (Expected)
             </p>
-            <p className="edu-grade">Current CGPA: 7.11 / 10</p>
+            <p className="edu-grade">Current CGPA: 7.38 / 10</p>
           </div>
           <div className="edu-item">
             <h3>Bachelor of Computer Applications (BCA)</h3>

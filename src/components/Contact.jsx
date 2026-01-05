@@ -40,8 +40,8 @@ const Contact = () => {
           <div className="contact-card">
             <h3>Languages</h3>
             <ul className="contact-list">
-              <li>English (Fluent)</li>
-              <li>Hindi (Fluent)</li>
+              <li>English</li>
+              <li>Hindi </li>
               <li>Gujarati (Native)</li>
             </ul>
             <a
@@ -50,11 +50,9 @@ const Contact = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Download Resume (add your link)
+              Download Resume
             </a>
-            <p className="resume-note">
-              Tip: Replace the button link with your actual resume URL (Google Drive / GitHub).
-            </p>
+           
           </div>
         </div>
       </div>
