@@ -836,3 +836,173 @@ h1, h2, h3, h4 {
     text-align: center;
   }
 }
+
+/* ================================
+   RESPONSIVENESS ONLY – SAFE PATCH
+   (NO DESIGN CHANGE)
+================================ */
+
+/* Prevent horizontal scroll */
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Images scale correctly */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* -------------------------------
+   HERO FIX
+-------------------------------- */
+
+@media (max-width: 900px) {
+  .hero-inner {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .hero-photo-wrapper {
+    justify-content: center;
+  }
+
+  .hero {
+    padding-top: 3.5rem;
+  }
+}
+
+/* -------------------------------
+   SIDEBAR + CONTENT STACK
+-------------------------------- */
+
+@media (max-width: 900px) {
+  .app-shell {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 1.5rem;
+  }
+
+  .content-shell {
+    width: 100%;
+  }
+}
+
+/* -------------------------------
+   SIDEBAR INTERNAL FIX
+-------------------------------- */
+
+@media (max-width: 600px) {
+  .sidebar-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .sidebar-avatar {
+    width: 100px;
+    height: 100px;
+  }
+
+  .sidebar-contact {
+    align-items: center;
+  }
+}
+
+/* -------------------------------
+   GRIDS – AUTO WRAP ONLY
+-------------------------------- */
+
+@media (max-width: 768px) {
+  .about-grid,
+  .skills-grid,
+  .projects-grid,
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* -------------------------------
+   PROJECT IMAGE FIX
+-------------------------------- */
+
+.project-image {
+  height: auto;
+  aspect-ratio: 16 / 9;
+}
+
+/* -------------------------------
+   BUTTONS ON SMALL SCREENS
+-------------------------------- */
+
+@media (max-width: 520px) {
+  .hero-actions {
+    flex-direction: column;
+  }
+
+  .btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+/* -------------------------------
+   TABS RESPONSIVE (NO STYLE CHANGE)
+-------------------------------- */
+
+@media (max-width: 600px) {
+  .tabs-nav {
+    width: 100%;
+  }
+
+  .tabs-nav a {
+    flex: 1;
+    text-align: center;
+  }
+}
+
+/* -------------------------------
+   FOOTER STACK ONLY
+-------------------------------- */
+
+@media (max-width: 520px) {
+  .footer-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+
+/* ================================
+   TABS OVERFLOW FIX (MOBILE ONLY)
+   Keeps SAME design
+================================ */
+
+@media (max-width: 600px) {
+
+  .header-tabs {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .tabs-nav {
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;          /* KEY FIX */
+    justify-content: center;
+    box-sizing: border-box;
+  }
+
+  .tabs-nav a {
+    flex: 1 1 auto;
+    min-width: 0;
+    text-align: center;
+    padding: 0.45rem 0.6rem;  /* slightly tighter, same look */
+    white-space: nowrap;
+  }
+}
