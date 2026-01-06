@@ -13,7 +13,7 @@ Build Tool: Vite
 
 Styling: CSS / Tailwind (if used)
 
-Deployment: GitHub Pages / Netlify / Vercel
+Deployment: GitHub Pages / Vercel
 
 📂 Project Features
 
@@ -34,7 +34,7 @@ Contact section for easy communication
 Follow the steps below to run this project locally.
 
 1️⃣ Clone the Repository
-git clone https://github.com/ayushbhavsar5/.git
+git clone https://github.com/ayushbhavsar210/ayush-portfolio.git
 
 2️⃣ Navigate to the Project Folder
 cd your-repo-name
@@ -64,8 +64,6 @@ The production-ready files will be generated inside the dist folder.
 You can deploy the dist folder to any static hosting service such as:
 
 GitHub Pages
-
-Netlify
 
 Vercel
 
