@@ -47,16 +47,9 @@ npm run dev
 
 
 The application will run at:
-<<<<<<< HEAD
 
 http://localhost:5173
 
-
-The production-ready files will be generated inside the dist folder.
-
-=======
-
-http://localhost:5173
 
 🏗 Build for Production
 
@@ -67,7 +60,6 @@ npm run build
 
 The production-ready files will be generated inside the dist folder.
 
->>>>>>> 340e44c3df6fb5bd4a49306112be0b148fb6a3d1
 🌐 Deployment
 
 You can deploy the dist folder to any static hosting service such as:
@@ -93,13 +85,9 @@ Theme & Styling:
 Modify CSS or Tailwind classes to match your preferred design.
 
 📧 Contact
-
 If you have any suggestions, feedback, or opportunities, feel free to reach out.
 
 Ayush Bhavsar
 📍 India
-<<<<<<< HEAD
 💼 Aspiring Software / MERN Stack Developer
-=======
-💼 Aspiring Software / MERN Stack Developer
->>>>>>> 340e44c3df6fb5bd4a49306112be0b148fb6a3d1
+
