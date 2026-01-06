@@ -1,31 +1,86 @@
-# Ayush Portfolio (React + Vite)
+🚀 Ayush Bhavsar – Portfolio Website (React + Vite)
 
-This is a modern, responsive portfolio website for **Ayush Bhavsar**, built with React and Vite.
+This repository contains the source code for my personal portfolio website, developed using React and Vite.
+The portfolio highlights my skills, projects, education, and contact details, and is fully responsive across devices.
 
-## How to run
+The website is optimized for performance, clean UI, and easy customization.
 
-1. Install dependencies:
+🛠 Tech Stack
 
-```bash
+Frontend: React.js
+
+Build Tool: Vite
+
+Styling: CSS / Tailwind (if used)
+
+Deployment: GitHub Pages / Netlify / Vercel
+
+📂 Project Features
+
+Modern and clean UI design
+
+Fully responsive layout (mobile, tablet, desktop)
+
+Fast build and hot reload with Vite
+
+Easy to customize content and assets
+
+Resume download option
+
+Contact section for easy communication
+
+⚙️ Installation & Setup
+
+Follow the steps below to run this project locally.
+
+1️⃣ Clone the Repository
+git clone https://github.com/ayushbhavsar210/ayush-portfolio.git
+
+2️⃣ Navigate to the Project Folder
+cd your-repo-name
+
+3️⃣ Install Dependencies
 npm install
-```
 
-2. Start the dev server:
-
-```bash
+4️⃣ Start the Development Server
 npm run dev
-```
 
-3. Build for production:
 
-```bash
-npm run build
-```
+The application will run at:
 
-You can deploy the `dist` folder to GitHub Pages or any static hosting.
+http://localhost:5173
 
-## Customize
 
-- Update text in the React components inside `src/components`.
-- Replace images inside `src/assets` with your own if needed.
-- In `Contact.jsx`, replace the `Download Resume` button link with your real resume URL.
+The production-ready files will be generated inside the dist folder.
+
+🌐 Deployment
+
+You can deploy the dist folder to any static hosting service such as:
+
+GitHub Pages
+
+Vercel
+
+Firebase Hosting
+
+✏️ Customization Guide
+
+Content:
+Update text inside src/components (About, Projects, Skills, Contact, etc.)
+
+Images:
+Replace images in src/assets with your own images.
+
+Resume:
+In Contact.jsx, update the Download Resume button with your actual resume URL.
+
+Theme & Styling:
+Modify CSS or Tailwind classes to match your preferred design.
+
+📧 Contact
+
+If you have any suggestions, feedback, or opportunities, feel free to reach out.
+
+Ayush Bhavsar
+📍 India
+💼 Aspiring Software / MERN Stack Developer
