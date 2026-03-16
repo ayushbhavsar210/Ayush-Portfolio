@@ -76,15 +76,6 @@ const Contact = () => {
             </p>
 
             <ul className="contact-list">
-<<<<<<< HEAD
-              <li>English</li>
-              <li>Hindi </li>
-              <li>Gujarati (Native)</li>
-            </ul>
-            <a
-              href="https://drive.google.com/file/d/1_i7CsbgtMZqX5t6BP9qyXpoyqsjovGjG/view?usp=sharing"
-              className="btn primary full-width"
-=======
               <li className="contact-line"><strong>Technical Match</strong><span>React.js, Node.js, Express.js, MongoDB, REST APIs</span></li>
               <li className="contact-line"><strong>Delivery</strong><span>Authentication, CRUD modules, and admin workflows</span></li>
               <li className="contact-line"><strong>Work Style</strong><span>Clean code, Git workflow, and API testing with Postman</span></li>
@@ -108,21 +99,15 @@ const Contact = () => {
             <a
               href="https://drive.google.com/file/d/1I5Rww7ZndM9K99mo6A2nfZWGz_0D2mWq/view?usp=sharing"
               className="btn primary full-width card-footer"
->>>>>>> fbedd25 (changes in User InterFace)
               target="_blank"
               rel="noreferrer"
             >
               Download Resume
             </a>
-<<<<<<< HEAD
-           
-          </div>
-=======
             <p className="resume-note">
               I usually reply within 24 hours for job and interview communication.
             </p>
           </article>
->>>>>>> fbedd25 (changes in User InterFace)
         </div>
       </div>
     </section>

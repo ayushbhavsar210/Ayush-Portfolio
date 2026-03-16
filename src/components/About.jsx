@@ -14,13 +14,9 @@ const About = () => {
           <div className="about-card">
             <h3>MERN Development Skills</h3>
             <p>
-<<<<<<< HEAD
-              I have a full-stack development mindset with primary experience in the MERN stack and PHP, focusing on building clean, scalable applications. I also have working knowledge of ASP.NET and Flutter, allowing me to adapt quickly across technologies.
-=======
               I develop end-to-end MERN features including React component architecture,
               Express routing, Node.js business logic, MongoDB schema integration,
               and API testing with Postman.
->>>>>>> fbedd25 (changes in User InterFace)
             </p>
           </div>
           <div className="about-card">
@@ -34,15 +30,9 @@ const About = () => {
           <div className="about-card">
             <h3>Role Targeting</h3>
             <p>
-<<<<<<< HEAD
-              I&apos;m looking for an internship or junior role in Web Development ( MEAN / MERN / PHP )
-              where I can learn from senior developers, contribute to production code, and grow into
-              a reliable full‑stack engineer.
-=======
               Targeting roles: MERN Stack Developer, React Developer, Node.js Developer,
               and Full-Stack JavaScript Developer. Open to internship and entry-level
               opportunities with product teams and service companies.
->>>>>>> fbedd25 (changes in User InterFace)
             </p>
           </div>
         </div>

@@ -17,11 +17,6 @@ const Education = () => {
             <p className="edu-meta">
               CHARUSAT, Gujarat | Aug 2024 - Oct 2026 (Expected)
             </p>
-<<<<<<< HEAD
-            <p className="edu-grade">Current CGPA: 7.38 / 10</p>
-          </div>
-          <div className="edu-item">
-=======
             <p className="edu-grade">Current CGPA: 7.11 / 10</p>
             <div className="edu-pill-row">
               <span className="edu-pill">Web Development</span>
@@ -60,7 +55,6 @@ const Education = () => {
 
           <article className="edu-item timeline-card">
             <p className="edu-label">Undergraduate Degree</p>
->>>>>>> fbedd25 (changes in User InterFace)
             <h3>Bachelor of Computer Applications (BCA)</h3>
             <p className="edu-meta">
               Sardar Patel University, Gujarat | July 2021 - June 2024
