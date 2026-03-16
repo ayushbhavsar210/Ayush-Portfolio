@@ -4,12 +4,40 @@ import profileImg from '../assets/ayush-profile.jpg'
 const SidebarProfile = () => {
   return (
     <aside className="sidebar">
-      <div className="sidebar-card card-elevated">
+      <div className="sidebar-card">
+        <div className="status-pill">
+          <span className="status-dot" />
+          Open to MERN Developer Roles
+        </div>
         <div className="sidebar-avatar-wrapper">
           <img src={profileImg} alt="Ayush Bhavsar" className="sidebar-avatar" />
         </div>
         <h1 className="sidebar-name">Ayush Bhavsar</h1>
-        <p className="sidebar-tag">MCA Student · Full-Stack Developer</p>
+        <p className="sidebar-tag">MERN Stack Developer Candidate | React.js, Node.js, Express.js, MongoDB</p>
+
+        <div className="sidebar-stats">
+          <div className="sidebar-stat-item">
+            <strong>3+</strong>
+            <span>Major Projects</span>
+          </div>
+          <div className="sidebar-stat-item">
+            <strong>10+</strong>
+            <span>API Features</span>
+          </div>
+          <div className="sidebar-stat-item">
+            <strong>0 Days</strong>
+            <span>Notice Period</span>
+          </div>
+        </div>
+
+        <div className="sidebar-focus-block">
+          <p className="sidebar-focus-title">Role Focus</p>
+          <div className="sidebar-focus-chips">
+            <span className="sidebar-focus-chip">MERN Stack Developer</span>
+            <span className="sidebar-focus-chip">React Developer</span>
+            <span className="sidebar-focus-chip">Node.js Developer</span>
+          </div>
+        </div>
 
         <div className="sidebar-contact">
           <div className="sidebar-contact-item">
@@ -25,6 +53,10 @@ const SidebarProfile = () => {
             <span>Kapadwanj, Gujarat, India</span>
           </div>
         </div>
+
+        <a className="btn primary full-width sidebar-primary-cta" href="mailto:ayushbhavsar70@gmail.com">
+          Schedule Interview
+        </a>
 
         <div className="sidebar-links">
           <a
@@ -46,7 +78,7 @@ const SidebarProfile = () => {
             target="_blank"
             rel="noreferrer"
           >
-            Resume
+            Resume PDF
           </a>
         </div>
       </div>

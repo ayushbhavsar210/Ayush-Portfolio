@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="container footer-inner">
-        <p>© {new Date().getFullYear()} Ayush Bhavsar. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Ayush Bhavsar. Crafted with React and focus.</p>
         <div className="footer-links">
           <a href="https://github.com/ayushbhavsar210" target="_blank" rel="noreferrer">
             GitHub

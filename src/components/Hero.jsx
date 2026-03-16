@@ -1,37 +1,43 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import profileImg from '../assets/ayush-profile.jpg'
 
 const Hero = () => {
   return (
-    <section id="home" className="section hero">
-      <div className="container hero-inner">
-        <div className="hero-text">
-          <p className="hero-kicker">MCA Fresher • Full-Stack Developer</p>
-          <h1>Hi, I'm <span>Ayush Bhavsar</span></h1>
+    <section className="section">
+      <div className="container hero">
+        <div>
+          <p className="hero-kicker">MERN Stack Developer Portfolio</p>
+          <h2 className="hero-title">
+            Entry-level <strong>MERN Stack Developer</strong> ready for production teams
+          </h2>
           <p className="hero-subtitle">
-            I build clean, responsive web and mobile applications using modern technologies
-            like React, Node.js, ASP.NET, Flutter, MongoDB and MySQL.
+            I am Ayush Bhavsar, an MCA candidate focused on the MERN stack: React.js, Node.js,
+            Express.js, and MongoDB. I build responsive frontends, RESTful APIs, authentication
+            flows, and database-backed features with clean, maintainable code.
           </p>
           <div className="hero-actions">
-            <a href="#projects" className="btn primary">View Projects</a>
-            <a href="#contact" className="btn ghost">Contact Me</a>
+            <Link to="/projects" className="btn primary">View MERN Projects</Link>
+            <Link to="/contact" className="btn ghost">Interview Me</Link>
             <a
-              className="btn outline"
+              className="btn ghost"
               href="https://github.com/ayushbhavsar210"
               target="_blank"
               rel="noreferrer"
             >
-              GitHub
+              GitHub Profile
             </a>
           </div>
           <div className="hero-meta">
-            <span>📍 Kapadwanj, Gujarat</span>
-            <span>📧 ayushbhavsar70@gmail.com</span>
-            <span>📱 +91 99138 28214</span>
+            <span>Target Role: MERN Stack Developer</span>
+            <span>Core: React.js | Node.js | Express.js | MongoDB</span>
+            <span>Location: Kapadwanj, Gujarat</span>
+            <span>Email: ayushbhavsar70@gmail.com</span>
+            <span>Phone: +91 99138 28214</span>
           </div>
         </div>
-        <div className="hero-photo-wrapper">
-          <div className="hero-photo-card">
+        <div className="hero-photo-frame">
+          <div>
             <img src={profileImg} alt="Ayush Bhavsar" className="hero-photo" />
           </div>
         </div>

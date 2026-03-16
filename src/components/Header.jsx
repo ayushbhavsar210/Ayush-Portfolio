@@ -3,9 +3,9 @@ import { NavLink } from 'react-router-dom'
 
 const Header = () => {
   return (
-    <header className="header header-tabs">
+    <header className="header">
       <nav className="tabs-nav">
-        <NavLink to="/" end>About</NavLink>
+        <NavLink to="/" end>Home</NavLink>
         <NavLink to="/skills">Skills</NavLink>
         <NavLink to="/projects">Projects</NavLink>
         <NavLink to="/education">Education</NavLink>
