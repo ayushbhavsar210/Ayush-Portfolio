@@ -17,7 +17,7 @@ const SidebarProfile = () => {
 
         <div className="sidebar-stats">
           <div className="sidebar-stat-item">
-            <strong>3+</strong>
+            <strong>4+</strong>
             <span>Major Projects</span>
           </div>
           <div className="sidebar-stat-item">
@@ -50,7 +50,7 @@ const SidebarProfile = () => {
           </div>
           <div className="sidebar-contact-item">
             <span className="sidebar-contact-label">Location</span>
-            <span>Kapadwanj, Gujarat, India</span>
+            <span>Ahmedabad, Gujarat, India</span>
           </div>
         </div>
 
@@ -74,7 +74,7 @@ const SidebarProfile = () => {
             GitHub
           </a>
           <a
-            href="https://drive.google.com/file/d/1FdUQyDCph47MC8hYOjH2L_SlNz-yFEW/view?usp=sharing"
+            href="https://drive.google.com/file/d/1FdUQyDCph47MC8hYXOjH2L_SlNz-yFEW/view?usp=drive_link"
             target="_blank"
             rel="noreferrer"
           >

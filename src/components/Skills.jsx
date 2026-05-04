@@ -22,21 +22,9 @@ const Skills = () => {
     },
     {
       title: 'Databases',
-      items: ['MongoDB', 'MySQL', 'Database Design', 'CRUD Operations'],
+      items: ['MongoDB', 'Database Design', 'CRUD Operations', 'Schema Optimization'],
       level: 83,
-      levelLabel: 'Strong',
-    },
-    {
-      title: 'Developer Tools',
-      items: ['Git', 'GitHub', 'Postman', 'VS Code'],
-      level: 83,
-      levelLabel: 'Strong',
-    },
-    {
-      title: 'Other Technical Skills',
-      items: ['Java', 'DBMS', 'ASP.NET', 'MEAN Fundamentals', 'Flutter Basics'],
-      level: 78,
-      levelLabel: 'Working Proficiency',
+      levelLabel: 'Advanced',
     },
   ]
 

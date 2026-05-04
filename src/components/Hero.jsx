@@ -31,7 +31,7 @@ const Hero = () => {
           <div className="hero-meta">
             <span>Target Role: MERN Stack Developer</span>
             <span>Core: React.js | Node.js | Express.js | MongoDB</span>
-            <span>Location: Kapadwanj, Gujarat</span>
+            <span>Location: Ahmedabad, Gujarat</span>
             <span>Email: ayushbhavsar70@gmail.com</span>
             <span>Phone: +91 99138 28214</span>
           </div>

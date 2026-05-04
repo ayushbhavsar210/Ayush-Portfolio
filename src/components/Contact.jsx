@@ -50,7 +50,7 @@ const Contact = () => {
               </li>
               <li>
                 <span className="contact-detail-label">Location</span>
-                <span>Kapadwanj, Gujarat, India</span>
+                <span>Ahmedabad, Gujarat, India</span>
               </li>
               <li>
                 <span className="contact-detail-label">LinkedIn</span>
@@ -97,7 +97,7 @@ const Contact = () => {
               <li className="contact-line"><strong>Work Type</strong><span>On-site, Hybrid, Remote</span></li>
             </ul>
             <a
-              href="https://drive.google.com/file/d/1FdUQyDCph47MC8hYOjH2L_SlNz-yFEW/view?usp=sharing"
+              href="https://drive.google.com/file/d/1FdUQyDCph47MC8hYXOjH2L_SlNz-yFEW/view?usp=drive_link"
               className="btn primary full-width card-footer"
               target="_blank"
               rel="noreferrer"
