@@ -74,7 +74,7 @@ const SidebarProfile = () => {
             GitHub
           </a>
           <a
-            href="https://drive.google.com/file/d/1_i7CsbgtMZqX5t6BP9qyXpoyqsjovGjG/view?usp=sharing"
+            href="https://drive.google.com/file/d/1FdUQyDCph47MC8hYOjH2L_SlNz-yFEW/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >

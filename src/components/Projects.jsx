@@ -1,54 +1,65 @@
 import React from 'react'
+import autoxImg from '../assets/autox.jpg'
+import bloomImg from '../assets/bloom.jpg'
+import hdFoodImg from '../assets/hd food.png'
 import quizImg from '../assets/quiz-web.png'
-import expenseImg from '../assets/expense-tracker.jpg'
-import travelImg from '../assets/tour-travel.jpg'
 
 const projects = [
   {
+    title: 'AutoX - Smart Garage Service',
+    tech: 'React, Node.js, Firebase',
+    roleTag: 'Full-Stack Developer',
+    impact: 'Live Production Site | Booking & Services',
+    image: autoxImg,
+    link: 'https://auto-x-smart-garage-service.vercel.app/',
+    isLive: true,
+    summary: 'A smart garage service site with booking flows and service management.',
+    stack: ['React', 'Firebase/Auth', 'Responsive UI'],
+    bulletPoints: [
+      'Implemented responsive service listings and booking UI',
+      'Connected authentication and booking persistence with Firebase',
+      'Deployed as a responsive production site on Vercel',
+    ],
+  },
+  {
+    title: 'Bloome Heaven - Plantation Management',
+    tech: 'React, MongoDB, Express',
+    roleTag: 'Frontend + Backend',
+    impact: 'Plantation Management | Inventory',
+    image: bloomImg,
+    link: 'https://github.com/ayushbhavsar210/bloom-heaven-plantation-management.git',
+    summary: 'Plantation management system for nursery and inventory tracking.',
+    stack: ['React', 'Node.js', 'MongoDB'],
+    bulletPoints: [
+      'Built inventory and plantation management UI with CRUD features',
+      'Implemented backend APIs and data persistence with MongoDB',
+    ],
+  },
+  {
+    title: 'HD Food Catering Management',
+    tech: 'React, Node.js',
+    roleTag: 'Full-Stack',
+    impact: 'Order Management | Catering Workflows',
+    image: hdFoodImg,
+    link: 'https://github.com/ayushbhavsar210/hd-food-catering-management-system.git',
+    summary: 'Catering management system for orders and menu management.',
+    stack: ['React', 'Node.js', 'CRUD'],
+    bulletPoints: [
+      'Created menu listing, ordering, and admin order management flows',
+      'Integrated backend endpoints for order processing',
+    ],
+  },
+  {
     title: 'Quiz Web Application',
-    tech: 'Node.js, Express.js, MongoDB, REST API',
+    tech: 'Node.js, Express.js, MongoDB',
     roleTag: 'Backend + API Development',
-    impact: 'Authentication | Role-Based Access | Data Validation',
+    impact: 'Authentication | Role-Based Access',
     image: quizImg,
     link: 'https://github.com/Dhairya-77/quiz-web-application',
-    summary: 'MERN-style backend project focused on authentication, API flow, and data-driven quiz management.',
-    stack: ['Node.js', 'Express.js', 'MongoDB', 'REST API', 'JWT/Auth'],
+    summary: 'MERN-style backend project focused on authentication and quiz management.',
+    stack: ['Node.js', 'Express.js', 'MongoDB'],
     bulletPoints: [
-      'Developed Node.js and Express.js APIs for authentication, quiz management, and score tracking',
-      'Implemented role-based access control for admin and student workflows',
-      'Integrated MongoDB collections for users, questions, quizzes, and results',
-      'Used secure password hashing and input validation for safer API behavior',
-    ],
-  },
-  {
-    title: 'Expense Tracker App',
-    tech: 'Frontend Architecture, CRUD, State Management',
-    roleTag: 'Frontend Product Development',
-    impact: 'Reusable Components | UX Flows | Data Handling',
-    image: expenseImg,
-    link: 'https://github.com/ayushbhavsar210/Expence-Tracker-App',
-    summary: 'Personal finance tracking app demonstrating frontend architecture and CRUD feature implementation.',
-    stack: ['Component Design', 'CRUD', 'Validation', 'UI State'],
-    bulletPoints: [
-      'Built clean UI components and state-based flows for expense management',
-      'Implemented CRUD operations with category-based filtering and reporting',
-      'Focused on reusable components, validation, and user-friendly interaction patterns',
-    ],
-  },
-  {
-    title: 'Online Tour & Travel Agency System',
-    tech: 'ASP.NET, MySQL',
-    roleTag: 'Full-Stack System Design',
-    impact: 'Booking Workflow | Admin Module | Structured Schema',
-    image: travelImg,
-    link: '',
-    summary: 'Full-stack web application with booking workflows, relational data handling, and admin operations.',
-    stack: ['Authentication', 'Session Handling', 'SQL Schema', 'Form Validation'],
-    bulletPoints: [
-      'Designed multi-module flow for package listings, inquiries, and booking submissions',
-      'Implemented authentication and session-based access for users and administrators',
-      'Created structured schemas for users, packages, inquiries, and booking records',
-      'Applied backend validation and secure session handling for reliability',
+      'APIs for quiz creation, user auth, and result tracking',
     ],
   },
 ]
@@ -108,7 +119,7 @@ const Projects = () => {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      View GitHub Repository
+                      {project.isLive ? 'View Live Project' : 'View GitHub Repository'}
                     </a>
                   ) : (
                     <span className="link-secondary">Code available on request</span>

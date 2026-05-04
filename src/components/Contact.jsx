@@ -97,7 +97,7 @@ const Contact = () => {
               <li className="contact-line"><strong>Work Type</strong><span>On-site, Hybrid, Remote</span></li>
             </ul>
             <a
-              href="https://drive.google.com/file/d/1I5Rww7ZndM9K99mo6A2nfZWGz_0D2mWq/view?usp=sharing"
+              href="https://drive.google.com/file/d/1FdUQyDCph47MC8hYOjH2L_SlNz-yFEW/view?usp=sharing"
               className="btn primary full-width card-footer"
               target="_blank"
               rel="noreferrer"
